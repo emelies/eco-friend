@@ -7,6 +7,11 @@ const Menu = () => {
   function toggleButton() {
     setAnimation(!animation);
         }
+  
+  function clickMe(){
+    alert('button works');
+  }
+  
       
   return (
      <div
@@ -17,7 +22,21 @@ const Menu = () => {
     }
     onClick={() => toggleButton()}
     >
+      <div className="buttons">
+      <button onClick={clickMe} className="bigButton1">
+        recipes
+      </button>
+    
+      <button onClick={clickMe} className="bigButton2">
+        swap it
+      </button>
+
+      <button onClick={clickMe} className="bigButton3">
+        challenge
+      </button>
       </div>
+     </div>
+
   );
 };
   
