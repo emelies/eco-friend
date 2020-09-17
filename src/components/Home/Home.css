@@ -1,0 +1,13 @@
+.Homestyle {
+    background-color: var(--natural);
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    margin: 0;
+  }
+
+  .timeOfDayText {
+    font-family: 'Poppins', sans-serif;
+    color: var(--forest);
+    margin-top: 40%;
+    text-align: center;
+  }

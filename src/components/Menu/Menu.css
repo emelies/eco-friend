@@ -1,0 +1,47 @@
+
+.menu-component {
+    background: rgba(25, 62, 56, 1);
+    width: 100vw;
+    height: 650px;
+    position: fixed;
+    left: 0;
+    top: 75vh;
+    border-top-left-radius: 115px;
+  }
+  
+  .is-animated {
+    animation-name: animationStart;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    transition: ease;
+  }
+  
+  .reverse-animation {
+    animation-name: animationReverse;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    transition: ease;
+  }
+
+
+@keyframes animationStart {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-67%);
+    }
+  }
+  
+  @keyframes animationReverse {
+    0% {
+      transform: translateY(-67%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
