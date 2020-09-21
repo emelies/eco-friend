@@ -1,0 +1,73 @@
+.menuComponent {
+  background: rgba(25, 62, 56, 1);
+  width: 100vw;
+  height: 550px;
+  position: fixed;
+  left: 0;
+  top: 75vh;
+  border-top-right-radius: 75px;
+  border-top-left-radius: 15px;
+  display: grid;
+  grid-template-rows: 33%, 33%, 33%;
+}
+
+.isAnimated {
+  animation-name: animationStart;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  transition: ease;
+  background: rgba(25, 62, 56, 1);
+  width: 100vw;
+  height: 550px;
+  position: fixed;
+  left: 0;
+  top: 75vh;
+  border-top-right-radius: 75px;
+  border-top-left-radius: 15px;
+  display: grid;
+  grid-template-rows: 33%, 33%, 33%;
+}
+
+.reverseAnimation {
+  animation-name: animationReverse;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  transition: ease;
+  background: rgba(25, 62, 56, 1);
+  width: 100vw;
+  height: 550px;
+  position: fixed;
+  left: 0;
+  top: 75vh;
+  border-top-right-radius: 75px;
+  border-top-left-radius: 15px;
+  display: grid;
+  grid-template-rows: 33%, 33%, 33%;
+}
+
+@keyframes animationStart {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-60%);
+  }
+}
+
+@keyframes animationReverse {
+  0% {
+    transform: translateY(-60%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.buttons {
+  align-self: center;
+  justify-self: center;
+}

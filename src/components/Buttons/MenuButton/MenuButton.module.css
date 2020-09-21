@@ -1,0 +1,15 @@
+.menuButtonStyling {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--mint);
+  color: var(--forest);
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 20%;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 15px;
+  font-size: 24px;
+}
