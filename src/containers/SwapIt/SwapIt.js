@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./SwapIt.module.css";
+import Header from "../../components/Header/Header";
 
-const SwapIt = () => {
+function SwapIt() {
   return (
-    <div className={classes.theclass}>
-      <h1>HEADER </h1>
-      <h3>SUB HEADER </h3>
+    <div>
+      <Header header="SWAP IT" subheader="check-list" />
     </div>
   );
-};
+}
 
 export default SwapIt;

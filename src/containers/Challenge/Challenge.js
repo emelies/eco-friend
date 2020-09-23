@@ -1,13 +1,13 @@
 import React from "react";
 import classes from "./Challenge.module.css";
+import Header from "../../components/Header/Header";
 
-const Challenge = () => {
+function Challenge() {
   return (
-    <div className={classes.theclass}>
-      <h1>HEADER placeholder</h1>
-      <h3>SUB HEADER placeholder</h3>
+    <div>
+      <Header header="CHALLENGE" subheader="eco-year" />
     </div>
   );
-};
+}
 
 export default Challenge;

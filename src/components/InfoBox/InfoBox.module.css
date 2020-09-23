@@ -1,3 +1,13 @@
-.theclass {
-  background-color: blueviolet;
+.infoBox {
+  background: var(--natural);
+  font-family: "Poppins", sans-serif;
+  color: var(--forest);
+  width: 200px;
+  height: 100%;
+  padding: 10%;
+  margin: 13%;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 15px;
 }

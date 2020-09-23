@@ -21,7 +21,11 @@ const Home = () => {
     <div>
       <h1 className={classes.timeOfDayText}>Good {timeOfDay}!</h1>
 
-      <img src={placeholder} alt="placeholder" />
+      <img
+        src={placeholder}
+        alt="placeholder"
+        className={classes.illustration}
+      />
     </div>
   );
 };

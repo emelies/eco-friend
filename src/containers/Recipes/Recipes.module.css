@@ -1,4 +1,10 @@
 .layout {
   margin-top: none;
   text-align: center;
+  margin-bottom: 250px;
+}
+
+.svg {
+  height: 50%;
+  width: 50%;
 }

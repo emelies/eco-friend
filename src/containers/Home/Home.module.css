@@ -4,3 +4,10 @@
   margin-top: 40%;
   text-align: center;
 }
+
+.illustration {
+  width: 100%;
+  height: 550px;
+  justify-items: center;
+  align-items: center;
+}
