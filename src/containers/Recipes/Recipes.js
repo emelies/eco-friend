@@ -1,13 +1,15 @@
 import React from "react";
 import classes from "./Recipes.module.css";
+import Header from "../../components/Header/Header";
+import InfoBox from "../../components/InfoBox/InfoBox";
 
-const Recipes = () => {
+function Recipes() {
   return (
-    <div className={classes.theclass}>
-      <h1>HEADER placehoöder</h1>
-      <h3>SUB HEADER placeholder</h3>
+    <div className={classes.theClass}>
+      <Header header="RECIPES" subheader="easy DIY" />
+      <InfoBox />
     </div>
   );
-};
+}
 
 export default Recipes;

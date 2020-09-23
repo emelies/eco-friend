@@ -1,4 +1,4 @@
-.menuComponent {
+/* .menuComponent {
   background: rgba(25, 62, 56, 1);
   width: 100vw;
   height: 550px;
@@ -9,7 +9,9 @@
   border-top-left-radius: 15px;
   display: grid;
   grid-template-rows: 33%, 33%, 33%;
-}
+} */
+
+/* could optimize this code by seperating the animation classes and the menu component class (this is a quick-fix sollution) */
 
 .isAnimated {
   animation-name: animationStart;

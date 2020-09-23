@@ -1,0 +1,13 @@
+.header {
+  color: var(--forest);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+
+h1 h3 {
+  color: var(--forest);
+}
