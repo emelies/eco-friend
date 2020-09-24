@@ -1,11 +1,12 @@
 import React from "react";
-import classes from "./Challenge.module.css";
 import Header from "../../components/Header/Header";
+import EcoYear from "../../components/EcoYear/EcoYear";
 
 function Challenge() {
   return (
     <div>
       <Header header="CHALLENGE" subheader="eco-year" />
+      <EcoYear />
     </div>
   );
 }

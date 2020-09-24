@@ -1,0 +1,17 @@
+.layout {
+  border-top-right-radius: 75px;
+  border-top-left-radius: 15px;
+  background-color: var(--natural);
+  padding-top: 35px;
+  padding-bottom: 250px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  color: var(--mustard);
+}
+
+p {
+  color: var(--forest);
+}

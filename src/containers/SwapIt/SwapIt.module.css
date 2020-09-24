@@ -1,3 +1,6 @@
-.theclass {
-  color: pink;
+.layout {
+  border-top-right-radius: 75px;
+  border-top-left-radius: 15px;
+  background-color: var(--mustard);
+  padding-top: 35px;
 }
